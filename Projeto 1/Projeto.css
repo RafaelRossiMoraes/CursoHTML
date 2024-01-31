@@ -1,0 +1,107 @@
+html{
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #ccc;
+}
+a:hover.Link{
+    background-color: #6b6c68;
+}
+
+.Link{
+    padding: 10px;
+    background-color: #cdc7c3;
+    color: blue;
+    border-radius: 6px;
+    width: fit-content;
+}
+
+.Fundo{
+    background-color: #6b6c68;
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    color: white;
+    padding-right: 0;
+    padding-left: 0;
+    text-shadow: 3px 3px 2px rgba(0,0,0,0.6);
+}
+
+.Cabeçario{
+    background-image: url('/imagens/bg-3.jpg');
+    width: calc(100% -1px);
+    background-size: cover;
+    background-position: right center;
+    height: 50vh;
+    padding: 1px;
+}
+
+.Subtitulo{
+    background-color: rgba(0,0,0,0.6);
+    border-bottom: 3px solid white;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+    font-size: 18px;
+    color: white;
+    margin:auto;
+    margin-top: 3%;
+    font-size: 18px;
+}
+
+.TituloPrincipal{
+    padding-top: 10%;
+    color: white;
+    font-size: 56px;
+    text-align: center;
+    text-shadow: 5px 5px 2px rgba(0,0,0,0.6);
+    margin: auto;
+    margin-top: 0;
+    text-transform: uppercase;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    margin: 50px;
+}
+
+.Conteudo{
+    background-color: white;
+    width: 80vw;
+    padding: 1%;
+    margin: 0;
+}
+
+.Titulo{
+    background-color: #eee;
+    padding: 1%;
+    border-bottom: 2px solid #ccc;
+    margin-top: 0;
+}
+
+.Lista{
+    margin: 20px 50px 0 0;
+    text-align: right;
+}
+
+.Item{
+    background-color: rgba(0,0,0,0.4);
+    display: inline-block;
+    list-style-type: none;
+    font-size: 15px;
+    border: 1px solid white;
+    margin-left: 20px;
+}
+
+a {
+    color: white;
+    padding: 15px;
+    margin: 0;
+    display: block;
+}
