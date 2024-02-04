@@ -1,0 +1,93 @@
+html{
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background-color: aqua;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+div > h1{
+    margin: 0;
+}
+
+div > p{
+    color: #aaa;
+}
+.main-title {
+    color: #385555;
+    margin: 0;
+    top: 10vh;
+    margin: auto auto 5%;
+    font-size: 3em;
+}
+
+.container{
+    margin: auto;
+    align-items: center;
+    top: 0vh; 
+    margin-top: 0;
+    background-color: white;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    max-width: 35vw;
+    width: 100%;
+    max-height: 40vh;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px;
+}
+
+.Conta{
+    color:#385555;
+    display: flex;
+    gap: 20px;
+    padding: 16px;
+    position: relative;
+}
+
+.contaImage{
+    border-radius: 50%;
+    height: 80px;
+}
+
+.Conta:not(:nth-child(6)){
+    border-bottom: 1px solid rgb(1 1 1 / .2);
+}
+
+.Conta:hover{
+    background-color: #e8e8e8;
+}
+
+.Conta:hover .IconeDelete{
+    opacity: 0.3;
+}
+
+.Conta:hover .IconeEdit{
+    opacity: 0.3;
+}
+
+.IconeDelete, .IconeEdit{
+    position: absolute;
+    height: 15px;
+    top: calc(50% - 15px);
+    opacity: 0;
+}
+
+.IconeDelete{
+    right: 60px;
+}
+
+.IconeEdit{
+    right: 25px;
+}
+
+.IconeDelete:hover, .IconeEdit:hover{
+    cursor: pointer;
+}
+
